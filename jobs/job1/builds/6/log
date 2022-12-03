@@ -1,0 +1,13 @@
+Started by user [8mha:////4KZs1APL0DD0Pm48h1Yiw+glF4oMlqUIx2gycjifuf2fAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/dLi1CL91KTUvLzUzBwAzjdvnMMAAAA=[0mebenneil
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/job1
+[job1] $ /bin/sh -xe /tmp/jenkins4050099492013247314.sh
++ rm -rf myrepository
++ git clone https://github.com/Ebenneil/Gitpract.git
+Cloning into 'Gitpract'...
++ pwd
+/var/lib/jenkins/workspace/job1
++ sh myrepo 2int.sh 2 3
+sh: 0: cannot open myrepo: No such file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

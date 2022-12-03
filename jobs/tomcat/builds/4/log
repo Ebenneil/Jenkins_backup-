@@ -1,0 +1,26 @@
+Started by user [8mha:////4KZs1APL0DD0Pm48h1Yiw+glF4oMlqUIx2gycjifuf2fAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/dLi1CL91KTUvLzUzBwAzjdvnMMAAAA=[0mebenneil
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/tomcat
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Ebenneil/Gitpract.git
+ > git init /var/lib/jenkins/workspace/tomcat # timeout=10
+Fetching upstream changes from https://github.com/Ebenneil/Gitpract.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/Ebenneil/Gitpract.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Ebenneil/Gitpract.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 358fd93aaccb0aa337c48fa7f2243d4425dfeaa2 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 358fd93aaccb0aa337c48fa7f2243d4425dfeaa2 # timeout=10
+Commit message: "Update dummy.sh"
+ > git rev-list --no-walk 358fd93aaccb0aa337c48fa7f2243d4425dfeaa2 # timeout=10
+[tomcat] $ /bin/sh -xe /tmp/jenkins16974422234006587247.sh
++ sh gitpract/myrepo/2int.sh 5 2
+sh: 0: cannot open gitpract/myrepo/2int.sh: No such file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

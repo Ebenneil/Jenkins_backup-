@@ -1,0 +1,21 @@
+Started by user [8mha:////4KZs1APL0DD0Pm48h1Yiw+glF4oMlqUIx2gycjifuf2fAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/dLi1CL91KTUvLzUzBwAzjdvnMMAAAA=[0mebenneil
+Running as SYSTEM
+Building remotely on [8mha:////4BXsn6b/QFWd58uH4jtmS25gKxnIe1ZN5LM9hoqC1nDQAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgY+/eT83ILSktQi/bzUzBwAzyHaysMAAAA=[0mneil in workspace /home/neil/workspace/tomcat
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/neil/workspace/tomcat/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Ebenneil/Gitpract.git # timeout=10
+Fetching upstream changes from https://github.com/Ebenneil/Gitpract.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/Ebenneil/Gitpract.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 346c47cd8cab81a4d693c566a9f2edb71952a989 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 346c47cd8cab81a4d693c566a9f2edb71952a989 # timeout=10
+Commit message: "Update dummy.sh"
+ > git rev-list --no-walk 346c47cd8cab81a4d693c566a9f2edb71952a989 # timeout=10
+[tomcat] $ /bin/sh -xe /tmp/jenkins14898027612284006849.sh
++ sh myrepo sudo dummy.sh
+Finished: SUCCESS

@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@3536.vb_8a_6628079d5">
+    <parentIds>
+      <string>7</string>
+    </parentIds>
+    <id>8</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3536.vb_8a_6628079d5">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=origin/master</string>
+            <string>GIT_COMMIT=0fd42dd62f05fd1d0eaaf10cc50c3fa7b8c99c8d</string>
+            <string>GIT_PREVIOUS_COMMIT=85f1748970dc74ad88fc83545dfd728f3d64b86e</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=e5c071fafeb4998dd9a33913c4e63ab8b41424f1</string>
+            <string>GIT_URL=https://github.com/Ebenneil/Gitpract</string>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <startTime>1669723472936</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

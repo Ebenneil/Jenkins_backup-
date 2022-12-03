@@ -1,0 +1,11 @@
+Started by user [8mha:////4KZs1APL0DD0Pm48h1Yiw+glF4oMlqUIx2gycjifuf2fAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/dLi1CL91KTUvLzUzBwAzjdvnMMAAAA=[0mebenneil
+Running as SYSTEM
+Building remotely on [8mha:////4CXhV+jp4m0GdKVqCnuKh4d7g87yWfuWGqvzRejohlEuAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eLUorLUIiMARvO2mcYAAAA=[0mserver2 in workspace /home/server2/workspace/tomcat
+[tomcat] $ /bin/sh -xe /tmp/jenkins14022859752252795265.sh
++ rm -rf Gitpract
++ git clone https://github.com/Ebenneil/Gitpract.git
+Cloning into 'Gitpract'...
++ sh gitpract/myrepo/dummy.sh
+sh: 0: cannot open gitpract/myrepo/dummy.sh: No such file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
